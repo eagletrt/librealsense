@@ -1,6 +1,8 @@
 #  minimum required cmake version: 3.1.0
 cmake_minimum_required(VERSION 3.1.0)
 
+set(LIBREALSENSE_ROOT ${CMAKE_CURRENT_SOURCE_DIR})
+
 set( LRS_TARGET realsense2 )
 project( ${LRS_TARGET} LANGUAGES CXX C )
 
